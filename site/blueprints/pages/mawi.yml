@@ -1,0 +1,10 @@
+title: Mawi Blueprint Title
+fields:
+  text:
+    label: Text
+    type: textarea
+  wordCount:
+    label: Word Count
+    type: number
+    computed:
+      value: "{{ page.wordCount('text') }}"

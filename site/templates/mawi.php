@@ -19,7 +19,10 @@
 */
 ?>
 <?php snippet('header') ?>
-<?php snippet('hello') ?>
+<?php snippet('mawi') ?>
+
+
+<p><strong>Word count:</strong> <?= $page->wordCount('text') ?></p>
 
 <article>
   <h1 class="h1"><?= $page->title()->esc() ?></h1>

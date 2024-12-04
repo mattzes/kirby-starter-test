@@ -1,6 +1,16 @@
 # Each page blueprint must have a title, the title may be different from the file name
 title: About us
 
+fields:
+  text:
+    label: Text
+    type: textarea
+  wordCount:
+    label: Word Count
+    type: number
+    computed:
+      value: "{{ page.wordCount('text') }}"
+
 # Each page can have an icon that is shown in page listings when no preview image is available.
 icon: ☎️
 

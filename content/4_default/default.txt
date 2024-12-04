@@ -1,0 +1,22 @@
+Title: default
+
+----
+
+Template: default
+
+----
+
+Text: Hier steht ein Text, dessen Worte gezählt werden sollen
+
+----
+
+Headline: Welcome to mawis page
+
+----
+
+Subheadline: Lorem ipsum
+
+----
+
+
+Uuid: uuidlskjdflsk
