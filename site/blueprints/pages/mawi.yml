@@ -8,3 +8,6 @@ fields:
     type: number
     computed:
       value: "{{ page.wordCount('text') }}"
+  variableName:
+    type: hello
+    label: Greeting

@@ -1,0 +1,12 @@
+{
+    "name": "composer-mawi/hello-world",
+    "description": "Some description for your plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mattes Witthöft",
+            "email": "mattes.witthoeft@datadrivers.de"
+        }
+    ]
+}
